@@ -1,9 +1,3 @@
-# Ensure required libraries are installed
-try:
-    import plotly.express as px
-except ImportError:
-    subprocess.check_call(["pip", "install", "streamlit", "pandas", "altair", "plotly"])
-
 # Import libraries
 import streamlit as st
 import pandas as pd
